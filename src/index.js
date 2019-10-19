@@ -9,7 +9,7 @@ module.exports = function zeros(expression) {
 			let value = j
 			while (value % 5 == 0) {
 				num5++;                                         // counting fives
-				temp /= 5;
+				value /= 5;
 			}
 			while (value % 2 == 0) {
 				num2++;                                         // addition of twos 
